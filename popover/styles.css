@@ -1,0 +1,36 @@
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 8px;
+}
+
+.popover {
+    display: none;
+}
+
+.container.active .popover {
+    display: inline-block;
+}
+
+.popover-msg {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.vnutText {
+    margin: 0px 0px !important;
+}
+
+.zagolovok {
+    margin-bottom: 4px !important;
+}
+
+.vnutText2 {
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+}
+
+.btnClck {
+    display: flex;
+    justify-content: center;
+}
